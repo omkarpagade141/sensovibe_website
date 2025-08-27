@@ -10,7 +10,7 @@ export default function Navigation() {
         {navigation?.map((item, i) => (
           <li
             key={i}
-            className={item.dropdown ? "menu-item-has-children " : ""}
+            className={item.dropdown ? "menu-item-has-children" : ""}
           >
             {item.dropdown ? (
               <Link
@@ -26,7 +26,7 @@ export default function Navigation() {
               </Link>
             ) : (
               <Link
-                className={path === item.url ? "ui-active-parent-1" : ""}
+                className={path === item.url ? "ui-active-parent-1" : "ui-inactive-parent-1"}
                 to={item.url}
               >
                 {item.name}

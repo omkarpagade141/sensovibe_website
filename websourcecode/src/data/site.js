@@ -67,25 +67,25 @@ export const services = [
 
 export const services_2 = [
   {
-    imgUrl: "/images/service/custom/vibreationAnalysis.jpg",
+    imgUrl: "/images/service/custom/vibreationAnalysis.jpg", 
     icon: "flaticon-software-development", // existing icon
     title: "Vibration Analysis",
     brief: "Detect, monitor and analyze machine vibrations to identify faults early and improve equipment reliability.",
   },
   {
-    imgUrl: "/images/service/custom/inSituDynamicBalancing.jpg",
+    imgUrl: "/images/service/custom/balancing.jpg",
     icon: "flaticon-dashboard", // existing icon
     title: "In-Situ Dynamic Balancing",
     brief: "On-site rotor balancing to reduce downtime, extend equipment life and avoid costly dismantling.",
   },
   {
-    imgUrl: "/images/service/custom/laserShaftALignment.jpg",
+    imgUrl: "/images/service/custom/laserShaftalignments.jpg",
     icon: "flaticon-app-development", // existing icon
     title: "Laser Shaft Alignment",
     brief: "Accurate laser-based alignment to reduce wear, lower energy consumption, and increase uptime.",
   },
   {
-    imgUrl: "/images/service/custom/infraRedThermography.jpg",
+    imgUrl: "/images/service/custom/thermography1.jpg",
     icon: "flaticon-content-management",
     title: "Infrared Thermography",
     brief: "Non-contact thermal imaging to detect overheating, insulation failures, leaks and electrical faults.",
@@ -97,13 +97,13 @@ export const services_2 = [
     brief: "Ultrasonic testing for leak detection, slow-speed bearing monitoring, and electrical discharge faults.",
   },
   {
-    imgUrl: "/images/service/custom/motorCurrentANalysis.jpg",
+    imgUrl: "/images/service/custom/shaftalignment.jpg",
     icon: "flaticon-bullhorn",
     title: "Motor Current Analysis",
     brief: "Analyze motors, transformers and generators to detect electrical and mechanical faults in advance.",
   },
   {
-    imgUrl: "/images/service/custom/lubeOil.jpg",
+    imgUrl: "/images/service/custom/lubeOilnspection.jpg",
     icon: "flaticon-technical-support",
     title: "Lube Oil Analysis",
     brief: "Monitor lubricant health, detect contaminants and wear particles to extend machine life.",
@@ -280,67 +280,139 @@ export const prices = [
     },
 ];
 
+// export const testimonials = [
+//     {
+//         name: "Joshua Liddell",
+//         title: "Company Owner",
+//         imgUrl: "/images/testimonial/tc1.png",
+//     },
+//     {
+//         name: "Arush Aggarwal",
+//         title: "Senior Manager",
+//         imgUrl: "/images/testimonial/tc2.png",
+//     },
+//     {
+//         name: "Rosy Flower Gaggero",
+//         title: "Ceo And Founder",
+//         imgUrl: "/images/testimonial/tc3.png",
+//     },
+//     {
+//         name: "Joshua Liddell",
+//         title: "Company Owner",
+//         imgUrl: "/images/testimonial/tc1.png",
+//     },
+//     {
+//         name: "Arush Aggarwal",
+//         title: "Senior Manager",
+//         imgUrl: "/images/testimonial/tc2.png",
+//     },
+//     {
+//         name: "Rosy Flower Gaggero",
+//         title: "Ceo And Founder",
+//         imgUrl: "/images/testimonial/tc3.png",
+//     },
+// ];
+
+// export const testimonials_2 = [
+//     {
+//         description: `“Iqbal is fantastic, he understood our requirements in no time and delivered results right on our expectations. He was supportive all through the engagement.”`,
+//         name: "Joshua Liddell",
+//         title: "Company Owner",
+//         imgUrl: "/images/testimonial/tc1.png",
+//     },
+//     {
+//         description: `“Iqbal is fantastic, he understood our
+//         requirements in no time and delivered
+//         results right on our expectations. He
+//         was supportive all through the
+//         engagement.”`,
+//         name: "Arush Aggarwal",
+//         title: "Senior Manager",
+//         imgUrl: "/images/testimonial/tc2.png",
+//     },
+//     {
+//         description: `“Iqbal is fantastic, he understood our
+//         requirements in no time and delivered
+//         results right on our expectations. He
+//         was supportive all through the
+//         engagement.”`,
+//         name: "Rosy Gaggero",
+//         title: "Ceo And Founder",
+//         imgUrl: "/images/testimonial/tc3.png",
+//     },
+// ];
+ 
+
+
 export const testimonials = [
-    {
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        imgUrl: "/images/testimonial/tc1.png",
-    },
-    {
-        name: "Arush Aggarwal",
-        title: "Senior Manager",
-        imgUrl: "/images/testimonial/tc2.png",
-    },
-    {
-        name: "Rosy Flower Gaggero",
-        title: "Ceo And Founder",
-        imgUrl: "/images/testimonial/tc3.png",
-    },
-    {
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        imgUrl: "/images/testimonial/tc1.png",
-    },
-    {
-        name: "Arush Aggarwal",
-        title: "Senior Manager",
-        imgUrl: "/images/testimonial/tc2.png",
-    },
-    {
-        name: "Rosy Flower Gaggero",
-        title: "Ceo And Founder",
-        imgUrl: "/images/testimonial/tc3.png",
-    },
+  {
+    name: "Suraj Kale",
+    title: "Plant Head, Steel Industry",
+    imgUrl: "/images/testimonial/tc1.png",
+    description:
+      "Sensovibes’s vibration analysis helped us detect faults early and avoid unexpected downtime. Highly reliable service.",
+  },
+  {
+    name: "Omkar Pagade",
+    title: "Maintenance Manager, Cement Plant",
+    imgUrl: "/images/testimonial/tc2.png",
+    description:
+      "Their laser alignment and thermography solutions improved our efficiency and reduced breakdown costs.",
+  },
+  {
+    name: "Sagar Chandgude",
+    title: "Operations Director, Power Plant",
+    imgUrl: "/images/testimonial/tc3.png",
+    description:
+      "With Sensovibes’s oil analysis and motor current monitoring, we’ve improved equipment reliability and saved costs.",
+  },
+  {
+    name: "Kundan Krishnan",
+    title: "Head of Engineering, FMCG",
+    imgUrl: "/images/testimonial/tc1.png",
+    description:
+      "The professionalism of the Sensovibes team stood out. Their predictive maintenance approach is a game-changer.",
+  },
+  {
+    name: "Yash Kalaskar",
+    title: "General Manager, Pharmaceuticals",
+    imgUrl: "/images/testimonial/tc2.png",
+    description:
+      "Ultrasound monitoring and NDT inspections by Sensovibes gave us confidence in our plant safety and compliance.",
+  },
+  {
+    name: "Sohel Pathan",
+    title: "Facility Manager, Oil & Gas",
+    imgUrl: "/images/testimonial/tc3.png",
+    description:
+      "Power Quality Analysis from Sensovibes reduced our energy losses and ensured smooth operations.",
+  },
 ];
 
+
+
+
 export const testimonials_2 = [
-    {
-        description: `“Iqbal is fantastic, he understood our requirements in no time and delivered results right on our expectations. He was supportive all through the engagement.”`,
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        imgUrl: "/images/testimonial/tc1.png",
-    },
-    {
-        description: `“Iqbal is fantastic, he understood our
-        requirements in no time and delivered
-        results right on our expectations. He
-        was supportive all through the
-        engagement.”`,
-        name: "Arush Aggarwal",
-        title: "Senior Manager",
-        imgUrl: "/images/testimonial/tc2.png",
-    },
-    {
-        description: `“Iqbal is fantastic, he understood our
-        requirements in no time and delivered
-        results right on our expectations. He
-        was supportive all through the
-        engagement.”`,
-        name: "Rosy Gaggero",
-        title: "Ceo And Founder",
-        imgUrl: "/images/testimonial/tc3.png",
-    },
+  {
+    description: `“Sensovibe provided outstanding vibration analysis and balancing services. Their team helped us detect issues early and avoid costly downtime. Truly reliable partners in predictive maintenance.”`,
+    name: "Suraj Kale",
+    title: "Plant Head, Steel Industry",
+    imgUrl: "/images/testimonial/tc1.png",
+  },
+  {
+    description: `“With Sensovibe’s thermography and shaft alignment solutions, our operations became safer and more efficient. The professionalism and accuracy of their engineers exceeded expectations.”`,
+    name: "Omkar Pagade",
+    title: "Maintenance Manager, Cement Plant",
+    imgUrl: "/images/testimonial/tc2.png",
+  },
+  {
+    description: `“Their expertise in lube oil analysis and motor current monitoring has improved our reliability significantly. We now plan maintenance better and reduce unexpected failures.”`,
+    name: "Sagar Chandgude",
+    title: "Operations Director, Power Plant",
+    imgUrl: "/images/testimonial/tc3.png",
+  },
 ];
+
 
 export const testimonials_3 = [
     {

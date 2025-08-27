@@ -53,7 +53,7 @@ export default function GetTouch() {
           </div>
           <div className="qinfo-box">
             <h5>Email Us</h5>
-            <Link to="mailto:mehedi@company.com">admin@sensovibe.in</Link>
+            <Link to="mailto:admin@sensovibe.in">admin@sensovibe.in</Link>
           </div>
         </div>
       </div>

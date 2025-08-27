@@ -35,9 +35,9 @@ export default function TestimonialStyle2() {
                         <p className="comment">{item.description}</p>
                       </div>
                       <div className="customar-info d-flex justify-content-center align-items-center">
-                        <div className="customar-img">
-                          <img src={item.imgUrl} alt="testimonial" />
-                        </div>
+                          {/* <div className="customar-img">
+                            <img src={item.imgUrl} alt="testimonial" />
+                          </div> */}
                         <div className="customar-title">
                           <h5>{item.name}</h5>
                           <span className="title">{item.title}</span>

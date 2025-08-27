@@ -16,9 +16,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-widget-content">
                   <p className="ft-text">
-                    Mauris ut enim sit amet lacus ornare ullamcor. Praesent
-                    placerat nequ puru rhoncu tincidunt odio ultrices. Sed odio
-                    feugiat feugiat felis.
+                  Trusted partner for Predictive Maintenance and Reliability Solutions. Keeping industries running smarter, safer, longer.
                   </p>
                   <div className="footer-social">
                     <div className="footer-social-icon d-flex">
@@ -43,23 +41,23 @@ export default function Footer() {
             {/* Our Services */}
             <div className="col-sm-6 offset-xl-1 col-xl-2">
               <div className="footer-widget">
-                <h4 className="footer-widget-title tx-white">Our Services</h4>
-                <div className="footer-widget-content">
+                <h4 className="footer-contact-item mb-3">Our Services</h4>
+                <div className="footer-contact-item">
                   <div className="footer-links">
                     <ul>
-                      <li>
+                      <li className="mb-3">
                         <Link to="#">Vibration Analysis</Link>
                       </li>
-                      <li>
+                      <li className="mb-3">
                         <Link to="#">In-Situ Dynamic Balancing</Link>
                       </li>
-                      <li>
+                      <li className="mb-3">
                         <Link to="#">Laser Shaft Alignment</Link>
                       </li>
-                      <li>
+                      <li className="mb-3">
                         <Link to="#">Infrared Thermography</Link>
                       </li>
-                      <li>
+                      <li className="mb-3">
                         <Link to="#">Ultrasound Monitoring</Link>
                       </li>
                     </ul>
@@ -71,14 +69,14 @@ export default function Footer() {
             {/* Useful Links */}
             <div className="col-sm-6 offset-xl-1 col-xl-2">
               <div className="footer-widget pages-links">
-                <h4 className="footer-widget-title tx-white">Useful Links</h4>
-                <div className="footer-widget-content">
+                <h4 className="footer-contact-item mb-3">Useful Links</h4>
+                <div className="footer-contact-item">
                   <div className="footer-links">
                     <ul>
-                      <li>
+                      <li className="mb-4">
                         <Link to="/about">About Us</Link>
                       </li>
-                      <li>
+                      <li className="mb-4">
                         <Link to="/contact">Contact Us</Link>
                       </li>
                       {/* <li>
@@ -91,10 +89,10 @@ export default function Footer() {
                         <Link to="/terms">Terms & Conditions</Link>
                       </li> */}
 
-                      <li>
+                      <li className="mb-4">
                         <Link to="#">Privacy Policy</Link>
                       </li>
-                      <li>
+                      <li className="mb-4">
                         <Link to="#">Terms & Conditions</Link>
                       </li>
                     </ul>
@@ -103,38 +101,12 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Company Info
-            <div className="col-sm-6 col-xl-3">
-              <div className="footer-widget">
-                <h4 className="footer-widget-title tx-white">Company Info</h4>
-                <div className="footer-widget-content">
-                  <div className="footer-contact">
-                    <ul>
-                      <li>
-                        <strong>Sensovibe Reliability Pvt. Ltd.</strong>
-                      </li>
-                      <li>
-                        <i className="fas fa-map-marker-alt"></i>
-                        C- 819 gera imperium gateway, CTC no 2656, next to hotel kalasagar. Nashik phata metro station,Village-Bhosari,  Tal- Haveli,  PCMC, pune 411034 Maharashtra
-                      </li>
-                      <li>
-                        <i className="fas fa-phone"></i>
-                        +91 98765 43210
-                      </li>
-                      <li>
-                        <i className="fas fa-envelope"></i>
-                        <a href="mailto:info@sensovibe.com">info@sensovibe.com</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
+           
 
             {/* Company Info */}
             <div className="col-sm-6 col-xl-3">
               <div className="footer-widget">
-                <h4 className="footer-widget-title tx-white">Company Info</h4>
+                <h4 className="footer-contact-item mb-3">Company Info</h4>
                 <div className="footer-widget-content">
                   <div className="footer-contact-box">
                     <p>
@@ -157,7 +129,7 @@ export default function Footer() {
 
                     <div className="footer-contact-item d-flex">
                       <i className="fas fa-envelope me-2 mt-1"></i>
-                      <a href="mailto:info@sensovibe.com">admin@sensovibe.com</a>
+                      <a href="mailto:info@sensovibe.com">admin@sensovibe.in</a>
                     </div>
                   </div>
                 </div>
@@ -183,7 +155,7 @@ export default function Footer() {
             <div className="col">
               <div className="footer-copyright-text text-center">
                 <p className="mb-0">
-                  © Sensovibe Reliability Pvt. 2025. All Rights Reserved
+                  © Sensovibe Reliability Pvt. Ltd. 2025. All Rights Reserved
                 </p>
               </div>
             </div>
