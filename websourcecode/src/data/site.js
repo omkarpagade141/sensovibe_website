@@ -65,68 +65,79 @@ export const services = [
 // ];
 
 
-export const services_2 = [
+export const services_2 = [  
   {
-    imgUrl: "/images/service/custom/vibreationAnalysis.jpg", 
+    images: ["/images/service/custom/vibreationAnalysis.jpg","/images/service/custom/vibreation1.jpg"],
     icon: "flaticon-software-development", // existing icon
     title: "Vibration Analysis",
-    brief: "Detect, monitor and analyze machine vibrations to identify faults early and improve equipment reliability.",
+    brief:
+      "Detect, monitor and analyze machine vibrations to identify faults early and improve equipment reliability.",
   },
   {
-    imgUrl: "/images/service/custom/balancing.jpg",
+    images: ["/images/service/custom/balancing.jpg"],
     icon: "flaticon-dashboard", // existing icon
     title: "In-Situ Dynamic Balancing",
-    brief: "On-site rotor balancing to reduce downtime, extend equipment life and avoid costly dismantling.",
+    brief:
+      "On-site rotor balancing to reduce downtime, extend equipment life and avoid costly dismantling.", 
   },
   {
-    imgUrl: "/images/service/custom/laserShaftalignments.jpg",
+    images: ["/images/service/custom/laserShaftalignments.jpg", "/images/service/custom/alignment2.jpg", "/images/service/custom/alignment1.jpg","/images/service/custom/laserShaft2.jpg"],
     icon: "flaticon-app-development", // existing icon
     title: "Laser Shaft Alignment",
-    brief: "Accurate laser-based alignment to reduce wear, lower energy consumption, and increase uptime.",
+    brief:
+      "Accurate laser-based alignment to reduce wear, lower energy consumption, and increase uptime.",
   },
   {
-    imgUrl: "/images/service/custom/thermography1.jpg",
+    images: ["/images/service/custom/thermography.jpg","/images/service/custom/thermography1.jpg"],
     icon: "flaticon-content-management",
-    title: "Infrared Thermography",
-    brief: "Non-contact thermal imaging to detect overheating, insulation failures, leaks and electrical faults.",
+    title: "Infrared Thermography", 
+    brief:
+      "Non-contact thermal imaging to detect overheating, insulation failures, leaks and electrical faults.",
   },
   {
-    imgUrl: "/images/service/custom/ultraSoundMonitoring.jpg",
+    images: ["/images/service/custom/ultraSoundMonitoring.jpg"],
     icon: "flaticon-security",
     title: "Ultrasound Monitoring",
-    brief: "Ultrasonic testing for leak detection, slow-speed bearing monitoring, and electrical discharge faults.",
+    brief:
+      "Ultrasonic testing for leak detection, slow-speed bearing monitoring, and electrical discharge faults.",
   },
   {
-    imgUrl: "/images/service/custom/shaftalignment.jpg",
+    images: ["/images/service/custom/mcanalysis.jpg"], 
     icon: "flaticon-bullhorn",
     title: "Motor Current Analysis",
-    brief: "Analyze motors, transformers and generators to detect electrical and mechanical faults in advance.",
+    brief:
+      "Analyze motors, transformers and generators to detect electrical and mechanical faults in advance.",
   },
   {
-    imgUrl: "/images/service/custom/lubeOilnspection.jpg",
+    images: ["/images/service/custom/lubeOilnspection.jpg"],
     icon: "flaticon-technical-support",
     title: "Lube Oil Analysis",
-    brief: "Monitor lubricant health, detect contaminants and wear particles to extend machine life.",
+    brief:
+      "Monitor lubricant health, detect contaminants and wear particles to extend machine life.",
   },
   {
-    imgUrl: "/images/service/custom/ndtConventional.jpg",
+    images: ["/images/service/custom/ndtConventional.jpg"],
     icon: "flaticon-ux-design",
-    title: "NDT Conventional",
-    brief: "Non-destructive testing methods like MPI, DPI, UT, RT, Eddy Current to detect flaws without damage.",
+    title: "NDT Conventional", 
+    brief:
+      "Non-destructive testing methods like MPI, DPI, UT, RT, Eddy Current to detect flaws without damage.",
   },
+//   {
+//     images: ["/images/service/custom/boroscopyInspection.jpg"],
+//     icon: "flaticon-system",
+//     title: "Borescopy Inspection",
+//     brief:
+//       "Remote visual inspection of inaccessible areas for faster, safer, and accurate maintenance decisions.",
+//   },
   {
-    imgUrl: "/images/service/custom/boroscopyInspection.jpg",
-    icon: "flaticon-system",
-    title: "Borescopy Inspection",
-    brief: "Remote visual inspection of inaccessible areas for faster, safer, and accurate maintenance decisions.",
-  },
-  {
-    imgUrl: "/images/service/custom/powerQualityAnalysys.jpg",
+    images: ["/images/service/custom/powerQualityAnalysys.jpg"],
     icon: "flaticon-software-development",
     title: "Power Quality Analysis",
-    brief: "Analyze and improve electrical power quality to avoid downtime, equipment failure and energy losses.",
+    brief:
+      "Analyze and improve electrical power quality to avoid downtime, equipment failure and energy losses.",
   },
 ];
+
 
 
 export const services_3 = [
@@ -137,7 +148,7 @@ export const services_3 = [
     {
         icon: "flaticon-ux-design",
         title: "Ui/Ux Designing",
-    },
+    }, 
     {
         icon: "flaticon-app-development",
         title: "App Development",

@@ -21,7 +21,7 @@ export default function AboutStyle2() {
                 data-wow-delay="0.5s"
                 data-wow-duration="1500ms"
               >
-                <span className="year-experience">5+</span>
+                <span className="year-experience">10+</span>
                 <p>Years Of Experience</p>
               </div>
             </div>

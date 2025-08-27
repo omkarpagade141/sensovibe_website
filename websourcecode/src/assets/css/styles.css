@@ -3821,7 +3821,32 @@ form.itco-sform .contact-field textarea {
 .main-header-one__outer {
   position: relative;
   display: block;
+  background: var(--thm-white);
 }
+
+
+/* Style Swiper Navigation Arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff; /* arrow color */
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  padding: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Make arrows smaller */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px !important;
+}
+
+
 
 .main-header-one__outer .auto-container {
   max-width: 1950px;
@@ -4095,6 +4120,15 @@ form.itco-sform .contact-field textarea {
 .main-header-two .main-header-one__bottom {
   background: var(--thm-bg-white);
 }
+
+@media (max-width: 768px) {
+  .main-header-two,
+  .main-header-two .main-header-one__bottom,
+  .main-header-two .mobile-nav-toggler {
+    background: #ffffff !important; /* same as desktop */
+  }
+}
+
 
 
 

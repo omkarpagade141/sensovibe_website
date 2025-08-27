@@ -37,13 +37,14 @@ export default function Header2({ companyProfile }) {
                             src="/images/logo/sensoLogo.png"
                             alt="site-logo"
                             height={40}
-                            width={105}
+                            width={125}
                           />
                         }
                       </Link>
                     </div>
                     <i
-                      className="fas fa-bars"
+                    style={{ color: '#0D283E'}}
+                      className="fas fa-bars mobileViewMenuBt"
                       data-bs-toggle="offcanvas"
                       data-bs-target="#offcanvasExample"
                       aria-controls="offcanvasExample"
